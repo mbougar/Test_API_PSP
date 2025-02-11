@@ -1,0 +1,6 @@
+@Test_API_PSP_HostAddress = http://localhost:5208
+
+GET {{Test_API_PSP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
