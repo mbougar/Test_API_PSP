@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuel\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj": {}
+    "C:\\Users\\manal\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuel\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj": {
+    "C:\\Users\\manal\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuel\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj",
+        "projectUniqueName": "C:\\Users\\manal\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj",
         "projectName": "Test_API_PSP",
-        "projectPath": "C:\\Users\\Manuel\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj",
-        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuel\\RiderProjects\\Test_API_PSP\\obj\\",
+        "projectPath": "C:\\Users\\manal\\RiderProjects\\Test_API_PSP\\Test_API_PSP.csproj",
+        "packagesPath": "C:\\Users\\manal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\manal\\RiderProjects\\Test_API_PSP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\manal\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -37,15 +37,28 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Security.Cryptography.Algorithms": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
@@ -67,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\manal\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,60 @@
+# Ignore Rider-specific files
+.idea/
+*.sln.iml
+*.sln.DotSettings
+*.sln.DotSettings.user
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore .NET user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.cache
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.vs
+.vscode/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Ignore dependency caches
+packages/
+project.lock.json
+global.json
+.nuget/
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore MongoDB data if using local database
+data/
+dump/
+
+# Ignore Rider workspace and cache files
+.idea/
+out/
+.gradle/
+.cache/
+
+# Ignore Docker build files
+docker-compose.override.yml
+docker-compose.debug.yml
+docker-compose.production.yml
+
+# Ignore coverage and test results
+coverage/
+TestResults/
+*.coverage
+*.coveragexml
+*.cov
+*.opencover.xml
+
+# Ignore Rider plugin settings
+*.DotSettings.user
